@@ -36,6 +36,7 @@ public class HelloController {
 
         String name = JSON.toJSONString(n);
         System.out.println(userName);
+        System.out.println("-------------->");
         System.out.println(student.getName()+"*********"+student.getPassword());
         return name;
     }
